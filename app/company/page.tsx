@@ -16,7 +16,7 @@ export default function Company() {
           <div className="max-w-4xl flex items-start justify-between gap-8">
             <div>
               <h1 className="text-4xl md:text-6xl lg:text-7xl font-semibold tracking-tight text-text-primary mb-6">
-                ENTSCHEIDUNGEN VERSTEHEN. WACHSTUM STEUERN.
+                ENTSCHEIDUNGEN VERSTEHEN - WACHSTUM STEUERN.
               </h1>
               <p className="text-lg md:text-xl text-text-secondary mb-8 max-w-3xl">
                 Wir helfen Unternehmen, Verhalten, Motivation und Kaufentscheidungen wissenschaftlich zu verstehen und daraus klare Strategien für Marketing, Kommunikation und Teams abzuleiten.

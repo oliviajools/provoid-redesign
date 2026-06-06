@@ -1,13 +1,10 @@
-"use client";
-
-import { useState } from "react";
 import Link from "next/link";
 import { blogPosts } from "@/lib/blog-posts";
 import { CTABlock } from "@/components/ui/CTABlock";
 
-export default function BlogPost({ params }: { params: { slug: string } }) {
-  const post = blogPosts.find((p) => p.id === params.slug);
-  const [showShortVersion, setShowShortVersion] = useState(false);
+export default async function BlogPost({ params }: { params: Promise<{ slug: string }> }) {
+  const { slug } = await params;
+  const post = blogPosts.find((p) => p.id === slug);
 
   if (!post) {
     return <div>Post not found</div>;
@@ -115,22 +112,12 @@ export default function BlogPost({ params }: { params: { slug: string } }) {
           <div className="max-w-3xl">
             {post.shortVersion && (
               <div className="mb-8 border border-border bg-surface p-6 rounded-card">
-                <button
-                  onClick={() => setShowShortVersion(!showShortVersion)}
-                  className="flex items-center gap-2 text-sm font-medium text-primary-accent hover:text-primary-light transition-colors mb-4"
-                >
-                  {showShortVersion ? 'Kurzfassung ausblenden' : 'Kurzfassung anzeigen'}
-                  <svg className={`w-4 h-4 transition-transform ${showShortVersion ? 'rotate-180' : ''}`} fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
-                  </svg>
-                </button>
-                {showShortVersion && (
-                  <div className="text-text-secondary leading-relaxed">
-                    {post.shortVersion.split('\n').map((line, index) => (
-                      <p key={index} className="mb-2">{line}</p>
-                    ))}
-                  </div>
-                )}
+                <h3 className="text-sm font-semibold uppercase tracking-wider text-text-muted mb-4">Kurzfassung</h3>
+                <div className="text-text-secondary leading-relaxed">
+                  {post.shortVersion.split('\n').map((line, index) => (
+                    <p key={index} className="mb-2">{line}</p>
+                  ))}
+                </div>
               </div>
             )}
             <div className="prose prose-lg max-w-none">

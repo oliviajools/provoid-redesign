@@ -11,16 +11,16 @@ interface BlogCardProps {
 export function BlogCard({ title, excerpt, slug, date, tags = [] }: BlogCardProps) {
   return (
     <Link href={`/insights/${slug}`} className="block group">
-      <article className="border border-border bg-surface p-6 rounded-card hover:border-primary-accent transition-colors h-full flex flex-col">
+      <article className="border border-border bg-surface p-6 rounded-card hover:border-primary-accent hover:shadow-lg hover:shadow-primary-accent/10 transition-all duration-300 hover:-translate-y-1 h-full flex flex-col">
         <h3 className="text-xl font-semibold text-text-primary mb-3 group-hover:text-primary-accent transition-colors">
           {title}
         </h3>
-        {date && <p className="text-sm text-text-muted mb-3">{date}</p>}
+        {date && <p className="text-sm text-primary-accent mb-3 font-medium">{date}</p>}
         <p className="text-text-secondary line-clamp-3 mb-4 flex-grow">{excerpt}</p>
         {tags.length > 0 && (
           <div className="flex flex-wrap gap-2 mb-4">
             {tags.slice(0, 3).map((tag) => (
-              <span key={tag} className="text-sm font-medium text-primary-accent bg-white px-2 py-1 rounded-editorial">
+              <span key={tag} className="text-sm font-medium text-primary-accent bg-primary-accent/10 px-2 py-1 rounded-editorial">
                 {tag}
               </span>
             ))}

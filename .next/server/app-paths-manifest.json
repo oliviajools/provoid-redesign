@@ -1,11 +1,7 @@
 {
-  "/_not-found/page": "app/_not-found/page.js",
-  "/about/page": "app/about/page.js",
-  "/insights/[slug]/page": "app/insights/[slug]/page.js",
-  "/insights/page": "app/insights/page.js",
-  "/kontakt/page": "app/kontakt/page.js",
   "/page": "app/page.js",
-  "/impressum/page": "app/impressum/page.js",
   "/company/page": "app/company/page.js",
+  "/kontakt/page": "app/kontakt/page.js",
+  "/about/page": "app/about/page.js",
   "/sports/page": "app/sports/page.js"
 }

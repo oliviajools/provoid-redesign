@@ -11,7 +11,6 @@ export default function About() {
   return (
     <div className="flex flex-col">
       <section className="relative py-section-mobile md:py-section bg-surface overflow-hidden">
-        <div className="frequency-line top-1/3" />
         <div className="container relative z-10">
           <div className="max-w-4xl flex items-start justify-between gap-8">
             <div>

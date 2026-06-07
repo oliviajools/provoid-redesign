@@ -14,17 +14,17 @@ export function Header() {
           <img src="/Logo-provoid.png" alt="PROVOID" className="h-8" />
           <div className="flex flex-col">
             <span className="text-xl font-semibold tracking-tight text-text-primary">PROVOID</span>
-            <span className="text-[0.6rem] tracking-widest text-text-muted uppercase">no brain. no gain.</span>
+            <span className="text-[0.6rem] tracking-widest text-primary-accent uppercase">no brain. no gain.</span>
           </div>
         </Link>
 
         <nav className="hidden md:flex items-center gap-8">
-          <Link href="/" className="text-sm font-medium text-text-primary hover:text-text-secondary transition-colors">Home</Link>
-          <Link href="/company" className="text-sm font-medium text-text-primary hover:text-text-secondary transition-colors">Company</Link>
-          <Link href="/sports" className="text-sm font-medium text-text-primary hover:text-text-secondary transition-colors">Sports</Link>
-          <Link href="/insights" className="text-sm font-medium text-text-primary hover:text-text-secondary transition-colors">Neuro-Insights</Link>
-          <Link href="/about" className="text-sm font-medium text-text-primary hover:text-text-secondary transition-colors">About</Link>
-          <Link href="/kontakt" className="text-sm font-medium text-primary-accent hover:opacity-80 transition-opacity">Kontakt</Link>
+          <Link href="/" className="text-sm font-medium text-text-primary hover:text-primary-accent transition-colors">Home</Link>
+          <Link href="/company" className="text-sm font-medium text-text-primary hover:text-primary-accent transition-colors">Company</Link>
+          <Link href="/sports" className="text-sm font-medium text-text-primary hover:text-primary-accent transition-colors">Sports</Link>
+          <Link href="/insights" className="text-sm font-medium text-text-primary hover:text-primary-accent transition-colors">Neuro-Insights</Link>
+          <Link href="/about" className="text-sm font-medium text-text-primary hover:text-primary-accent transition-colors">About</Link>
+          <Link href="/kontakt" className="text-sm font-medium text-primary-accent hover:text-primary-light transition-colors">Kontakt</Link>
         </nav>
 
         <button onClick={() => setMobileMenuOpen(!mobileMenuOpen)} className="md:hidden p-2 text-text-primary" aria-label="Toggle menu">
@@ -39,7 +39,7 @@ export function Header() {
               <img src="/Logo-provoid.png" alt="PROVOID" className="h-8" />
               <div className="flex flex-col">
                 <span className="text-xl font-semibold tracking-tight text-text-primary">PROVOID</span>
-                <span className="text-[0.6rem] tracking-widest text-text-muted uppercase">no brain. no gain.</span>
+                <span className="text-[0.6rem] tracking-widest text-primary-accent uppercase">no brain. no gain.</span>
               </div>
             </div>
             <Link href="/" className="text-sm font-medium text-text-primary" onClick={() => setMobileMenuOpen(false)}>Home</Link>

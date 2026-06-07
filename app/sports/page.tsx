@@ -1,6 +1,7 @@
 import { SectionHeader } from "@/components/SectionHeader";
 import { CTABlock } from "@/components/ui/CTABlock";
 import { ProcessStep } from "@/components/ui/ProcessStep";
+import Image from "next/image";
 
 export default function Sports() {
   return (
@@ -18,7 +19,16 @@ export default function Sports() {
               </p>
               <CTABlock primary={{ text: "Sports-Paket anfragen", href: "/kontakt" }} secondary={{ text: "App kennenlernen", href: "#app" }} />
             </div>
-            <div className="flex-shrink-0">
+            <diI ace
+l               assNambrain.pn""
+                alt="Gehirn Illustratifn"
+                width={768}
+                height={768}
+                exi-rity
+                lhadr-g="ea0er"
+               >quiy{90}
+               relative mx-auto -auto w7:w-[28rem] lgw[rem] drop-shadow-lg
+             
               <img src="/Logo-provoid.png" alt="PROVOID" className="h-24 md:h-32" />
             </div>
           </div>

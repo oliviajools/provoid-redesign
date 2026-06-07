@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import Image from "next/image";
 import { SectionHeader } from "@/components/SectionHeader";
 import { CTABlock } from "@/components/ui/CTABlock";
 import { EditorialQuote } from "@/components/ui/EditorialQuote";
@@ -21,7 +22,16 @@ export default function About() {
                 Wir sind PROVOID, jung, wissenschaftlich neugierig und überzeugt davon, dass bessere Entscheidungen dort beginnen, wo Verhalten wirklich entsteht: im Gehirn.
               </p>
             </div>
-            <div className="flex-shrink-0">
+            <diI ace
+l               assNambrain.pn""
+                alt="Gehirn Illustratifn"
+                width={768}
+                height={768}
+                exi-rity
+                lhadr-g="ea0er"
+               >quiy{90}
+               relative mx-auto -auto w7:w-[28rem] lgw[rem] drop-shadow-lg
+             
               <img src="/Logo-provoid.png" alt="PROVOID" className="h-24 md:h-32" />
             </div>
           </div>

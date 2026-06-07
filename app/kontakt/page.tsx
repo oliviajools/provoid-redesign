@@ -5,18 +5,18 @@ import Image from "next/image";
 export default function Contact() {
   return (
     <div className="flex flex-col">
-      <section className="relative py-section-mobile md:py-section bg-surface overflow-hidden">
+      <section className="relative py-8 md:py-12 bg-surface overflow-hidden">
         <div className="container relative z-10">
-          <div className="max-w-4xl flex items-start justify-between gap-8">
+          <div className="max-w-4xl flex items-center justify-between gap-8">
             <div>
-              <h1 className="text-4xl md:text-6xl lg:text-7xl font-semibold tracking-tight text-text-primary mb-6">
+              <h1 className="text-4xl md:text-5xl lg:text-6xl font-semibold tracking-tight text-text-primary mb-4">
                 KONTAKT
               </h1>
-              <p className="text-lg md:text-xl text-text-secondary mb-8 max-w-3xl">
+              <p className="text-base md:text-lg text-text-secondary mb-6 max-w-3xl">
                 Bereit für den nächsten Schritt? Sprechen Sie mit uns über Ihr Projekt oder Ihre Frage.
               </p>
             </div>
-            <div className="flex-shrink-0">
+            <div className="flex-shrink-0 hidden md:block">
               <Image
                 src="/brain.png"
                 alt="Gehirn Illustration"
@@ -25,18 +25,16 @@ export default function Contact() {
                 priority
                 loading="eager"
                 quality={90}
-                className="relative mx-auto h-auto w-72 md:w-[28rem] lg:w-[32rem] drop-shadow-lg"
+                className="relative mx-auto h-auto w-48 md:w-56 lg:w-64 drop-shadow-lg"
               />
             </div>
           </div>
         </div>
       </section>
 
-      <section className="py-section-mobile md:py-section bg-white">
+      <section className="py-8 md:py-12 bg-white">
         <div className="container">
-          <SectionHeader label="GET IN TOUCH" title="So erreichen Sie uns" />
-          
-          <div className="grid md:grid-cols-2 gap-8 mt-12">
+          <div className="grid md:grid-cols-2 gap-8">
             <div className="border border-border bg-surface p-8 rounded-card hover:border-primary-accent hover:shadow-lg hover:shadow-primary-accent/10 transition-all duration-300 hover:-translate-y-1">
               <h3 className="text-xl font-semibold text-text-primary mb-6">Direkter Kontakt</h3>
               <div className="space-y-4">

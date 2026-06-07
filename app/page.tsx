@@ -12,7 +12,7 @@ import { blogPosts } from "@/lib/blog-posts";
 
 export default function Home() {
   const [expandedCard, setExpandedCard] = useState<number | null>(null);
-  const [activeStep, setActiveStep] = useState<number | null>(null);
+  const [activeStep, setActiveStep] = useState<number | null>(0);
   return (
     <div className="flex flex-col">
       <section className="relative py-section-mobile md:py-section bg-surface overflow-hidden">

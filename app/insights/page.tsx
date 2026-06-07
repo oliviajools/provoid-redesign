@@ -19,17 +19,17 @@ export default function Insights() {
                 Aktuellste Neurowissenschaftliche Erkenntnisse aus der Forschung.
               </p>
             </div>
-            <diI ace
-l               assNambrain.pn""
-                alt="Gehirn Illustratifn"
+            <div className="flex-shrink-0">
+              <Image
+                src="/brain.png"
+                alt="Gehirn Illustration"
                 width={768}
                 height={768}
-                exi-rity
-                lhadr-g="ea0er"
-               >quiy{90}
-               relative mx-auto -auto w7:w-[28rem] lgw[rem] drop-shadow-lg
-             
-              <img src="/Logo-provoid.png" alt="PROVOID" className="h-24 md:h-32" />
+                priority
+                loading="eager"
+                quality={90}
+                className="relative mx-auto h-auto w-72 md:w-[28rem] lg:w-[32rem] drop-shadow-lg"
+              />
             </div>
           </div>
         </div>

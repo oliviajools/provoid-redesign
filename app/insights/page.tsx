@@ -43,7 +43,7 @@ export default function Insights() {
           />
           
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 mt-12">
-            {blogPosts.map((post) => (
+            {[...blogPosts].reverse().map((post) => (
               <BlogCard
                 key={post.id}
                 title={post.title}

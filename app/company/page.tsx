@@ -44,7 +44,7 @@ export default function Company() {
           <SectionHeader label="PRODUKTE" title="Unser Angebot für Unternehmen" />
           
           <div className="grid md:grid-cols-2 gap-8 mt-12">
-            <div className="border border-border bg-black p-8 rounded-card hover:border-primary-accent transition-colors">
+            <div className="border border-border bg-black p-8 rounded-card hover:border-primary-accent hover:shadow-lg hover:shadow-primary-accent/10 transition-all duration-300 hover:-translate-y-1">
               <h3 className="text-xl font-semibold text-white mb-4">Seminar: Neuroscience & Neuromarketing</h3>
               <p className="text-sm text-gray-300 mb-4">Kompakte Einführung in Neuromarketing & Consumer Neuroscience</p>
               <div className="space-y-3 text-sm">
@@ -54,7 +54,7 @@ export default function Company() {
               </div>
             </div>
 
-            <div className="border border-border bg-black p-8 rounded-card hover:border-primary-accent transition-colors">
+            <div className="border border-border bg-black p-8 rounded-card hover:border-primary-accent hover:shadow-lg hover:shadow-primary-accent/10 transition-all duration-300 hover:-translate-y-1">
               <h3 className="text-xl font-semibold text-white mb-4">Workshop: Branchenspezifisch & Hands-On</h3>
               <p className="text-sm text-gray-300 mb-4">Maßgeschneidertes Format mit klaren Strategien und konkreten Umsetzungs-Sprints</p>
               <div className="space-y-3 text-sm">
@@ -64,7 +64,7 @@ export default function Company() {
               </div>
             </div>
 
-            <div className="border border-border bg-black p-8 rounded-card hover:border-primary-accent transition-colors">
+            <div className="border border-border bg-black p-8 rounded-card hover:border-primary-accent hover:shadow-lg hover:shadow-primary-accent/10 transition-all duration-300 hover:-translate-y-1">
               <h3 className="text-xl font-semibold text-white mb-4">EEG-Produktevaluation & Analyse</h3>
               <p className="text-sm text-gray-300 mb-4">Testung der neuronalen Wirkung von Produkten inkl. Interpretation & Handlungsempfehlungen</p>
               <div className="space-y-3 text-sm">
@@ -74,7 +74,7 @@ export default function Company() {
               </div>
             </div>
 
-            <div className="border border-primary-accent bg-black p-8 rounded-card hover:border-primary-accent transition-colors">
+            <div className="border border-primary-accent bg-black p-8 rounded-card hover:border-primary-accent hover:shadow-lg hover:shadow-primary-accent/10 transition-all duration-300 hover:-translate-y-1">
               <h3 className="text-xl font-semibold text-white mb-4">Begleitende Produktentwicklung</h3>
               <p className="text-sm text-gray-300 mb-4">Kontinuierliche Begleitung von der Idee bis zur Umsetzung</p>
               <div className="space-y-3 text-sm">
@@ -92,7 +92,7 @@ export default function Company() {
           <SectionHeader label="THE PROBLEM" title="Die meisten Strategien beginnen zu spät." description="Viele Unternehmen verlassen sich auf Umfragen, Annahmen oder oberflächliche Daten. Doch Entscheidungen entstehen oft, bevor Menschen sie bewusst erklären können." />
           
           <div className="grid md:grid-cols-2 gap-8 mt-12">
-            <div className="border border-border bg-surface p-8 rounded-card hover:border-primary-accent transition-colors">
+            <div className="border border-border bg-surface p-8 rounded-card hover:border-primary-accent hover:shadow-lg hover:shadow-primary-accent/10 transition-all duration-300 hover:-translate-y-1">
               <h3 className="text-lg font-semibold text-text-primary mb-6">Ohne PROVOID</h3>
               <ul className="space-y-4">
                 <li className="flex items-start gap-3"><span className="text-text-muted mt-1">•</span><span className="text-text-secondary">Annahmen statt Mechanismen</span></li>
@@ -102,7 +102,7 @@ export default function Company() {
               </ul>
             </div>
 
-            <div className="border border-primary-accent bg-surface p-8 rounded-card hover:border-primary-accent transition-colors">
+            <div className="border border-primary-accent bg-surface p-8 rounded-card hover:border-primary-accent hover:shadow-lg hover:shadow-primary-accent/10 transition-all duration-300 hover:-translate-y-1">
               <h3 className="text-lg font-semibold text-text-primary mb-6">Mit PROVOID</h3>
               <ul className="space-y-4">
                 <li className="flex items-start gap-3"><span className="text-primary-accent mt-1">+</span><span className="text-text-secondary">Verhalten besser verstehen</span></li>
@@ -120,7 +120,7 @@ export default function Company() {
           <SectionHeader label="SERVICES" title="Von Analyse zu Anwendung." />
           
           <div className="mt-12 space-y-8">
-            <div className="border border-border bg-black p-4 rounded-card hover:border-primary-accent transition-all group">
+            <div className="border border-border bg-black p-4 rounded-card hover:border-primary-accent hover:shadow-lg hover:shadow-primary-accent/10 transition-all duration-300 hover:-translate-y-1 group">
               <div className="flex gap-4">
                 <div className="flex-shrink-0">
                   <span className="text-sm font-semibold uppercase tracking-wider text-gray-400 group-hover:text-primary-accent transition-colors">01</span>
@@ -131,7 +131,7 @@ export default function Company() {
                 </div>
               </div>
             </div>
-            <div className="border border-border bg-black p-4 rounded-card hover:border-primary-accent transition-all group">
+            <div className="border border-border bg-black p-4 rounded-card hover:border-primary-accent hover:shadow-lg hover:shadow-primary-accent/10 transition-all duration-300 hover:-translate-y-1 group">
               <div className="flex gap-4">
                 <div className="flex-shrink-0">
                   <span className="text-sm font-semibold uppercase tracking-wider text-gray-400 group-hover:text-primary-accent transition-colors">02</span>
@@ -142,7 +142,7 @@ export default function Company() {
                 </div>
               </div>
             </div>
-            <div className="border border-border bg-black p-4 rounded-card hover:border-primary-accent transition-all group">
+            <div className="border border-border bg-black p-4 rounded-card hover:border-primary-accent hover:shadow-lg hover:shadow-primary-accent/10 transition-all duration-300 hover:-translate-y-1 group">
               <div className="flex gap-4">
                 <div className="flex-shrink-0">
                   <span className="text-sm font-semibold uppercase tracking-wider text-gray-400 group-hover:text-primary-accent transition-colors">03</span>
@@ -153,7 +153,7 @@ export default function Company() {
                 </div>
               </div>
             </div>
-            <div className="border border-border bg-black p-4 rounded-card hover:border-primary-accent transition-all group">
+            <div className="border border-border bg-black p-4 rounded-card hover:border-primary-accent hover:shadow-lg hover:shadow-primary-accent/10 transition-all duration-300 hover:-translate-y-1 group">
               <div className="flex gap-4">
                 <div className="flex-shrink-0">
                   <span className="text-sm font-semibold uppercase tracking-wider text-gray-400 group-hover:text-primary-accent transition-colors">04</span>
@@ -281,10 +281,10 @@ export default function Company() {
           <SectionHeader label="RECOGNITION" title="Auszeichnungen und Kooperationen" />
           
           <div className="grid md:grid-cols-2 gap-8 mt-12">
-            <div className="border border-border bg-surface p-6 rounded-card hover:border-primary-accent transition-colors"><h3 className="text-lg font-semibold text-text-primary mb-4">Jugend forscht</h3><p className="text-text-secondary">Auszeichnung für neurowissenschaftliches Forschungsprojekt.</p></div>
-            <div className="border border-border bg-surface p-6 rounded-card hover:border-primary-accent transition-colors"><h3 className="text-lg font-semibold text-text-primary mb-4">Young Founders / JugendUnternimmt</h3><p className="text-text-secondary">Programm für junge Gründer und Unternehmer.</p></div>
-            <div className="border border-border bg-surface p-6 rounded-card hover:border-primary-accent transition-colors"><h3 className="text-lg font-semibold text-text-primary mb-4">STARTERiN Award</h3><p className="text-text-secondary">Nominierung für innovatives Gründungskonzept.</p></div>
-            <div className="border border-border bg-surface p-6 rounded-card hover:border-primary-accent transition-colors"><h3 className="text-lg font-semibold text-text-primary mb-4">EEG-Kooperationen</h3><p className="text-text-secondary">Wissenschaftliche Zusammenarbeit und Testungen im Neurolabor.</p></div>
+            <div className="border border-border bg-surface p-6 rounded-card hover:border-primary-accent hover:shadow-lg hover:shadow-primary-accent/10 transition-all duration-300 hover:-translate-y-1"><h3 className="text-lg font-semibold text-text-primary mb-4">Jugend forscht</h3><p className="text-text-secondary">Auszeichnung für neurowissenschaftliches Forschungsprojekt.</p></div>
+            <div className="border border-border bg-surface p-6 rounded-card hover:border-primary-accent hover:shadow-lg hover:shadow-primary-accent/10 transition-all duration-300 hover:-translate-y-1"><h3 className="text-lg font-semibold text-text-primary mb-4">Young Founders / JugendUnternimmt</h3><p className="text-text-secondary">Programm für junge Gründer und Unternehmer.</p></div>
+            <div className="border border-border bg-surface p-6 rounded-card hover:border-primary-accent hover:shadow-lg hover:shadow-primary-accent/10 transition-all duration-300 hover:-translate-y-1"><h3 className="text-lg font-semibold text-text-primary mb-4">STARTERiN Award</h3><p className="text-text-secondary">Nominierung für innovatives Gründungskonzept.</p></div>
+            <div className="border border-border bg-surface p-6 rounded-card hover:border-primary-accent hover:shadow-lg hover:shadow-primary-accent/10 transition-all duration-300 hover:-translate-y-1"><h3 className="text-lg font-semibold text-text-primary mb-4">EEG-Kooperationen</h3><p className="text-text-secondary">Wissenschaftliche Zusammenarbeit und Testungen im Neurolabor.</p></div>
           </div>
         </div>
       </section>

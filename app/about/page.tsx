@@ -49,7 +49,7 @@ export default function About() {
           <SectionHeader label="TEAM" title="Die Menschen hinter PROVOID" />
           
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mt-12">
-            <div className="border border-border bg-white p-8 rounded-card">
+            <div className="border border-border bg-white p-8 rounded-card hover:border-primary-accent hover:shadow-lg hover:shadow-primary-accent/10 transition-all duration-300 hover:-translate-y-1">
               <h3 className="text-xl font-semibold text-text-primary mb-2">Olivia</h3>
               <p className="text-sm text-text-muted mb-4">Gründerin & CEO</p>
               <p className="text-text-secondary mb-4">Gründete PROVOID 2025 nach dem Abitur als Jahrgangsbeste. Sie kombiniert wissenschaftliche Tiefe mit unternehmerischem Denken sowie ihrer Erfahrung aus Sport und Forschung.</p>
@@ -101,13 +101,13 @@ export default function About() {
               
               <p className="text-sm text-text-muted italic mt-4">"Gehirne zu verstehen, bedeutet, Menschen zu verstehen."</p>
             </div>
-            <div className="border border-border bg-white p-8 rounded-card">
+            <div className="border border-border bg-white p-8 rounded-card hover:border-primary-accent hover:shadow-lg hover:shadow-primary-accent/10 transition-all duration-300 hover:-translate-y-1">
               <h3 className="text-xl font-semibold text-text-primary mb-2">Jonathan</h3>
               <p className="text-sm text-text-muted mb-4">CFO / CMO</p>
               <p className="text-text-secondary mb-4">Studiert BWL an der LMU mit Fokus auf Rechnungswesen, Finanzen und Start-up-Entwicklung. Praktikum bei Caesar Ventures im Bereich Risikokapital.</p>
               <p className="text-sm text-text-muted italic">"Solides Fundament für nachhaltiges Wachstum."</p>
             </div>
-            <div className="border border-border bg-white p-8 rounded-card">
+            <div className="border border-border bg-white p-8 rounded-card hover:border-primary-accent hover:shadow-lg hover:shadow-primary-accent/10 transition-all duration-300 hover:-translate-y-1">
               <h3 className="text-xl font-semibold text-text-primary mb-2">Tito</h3>
               <p className="text-sm text-text-muted mb-4">Head of Sports</p>
               <p className="text-text-secondary mb-4">Aktiver Sportler und Trainer im Leistungssport mit umfassender Erfahrung in neurologisch orientierten Trainingsansätzen. Leitet die Sportabteilung von PROVOID.</p>
@@ -136,7 +136,7 @@ export default function About() {
         <div className="container">
           <SectionHeader label="WHY OUR AGE IS A STRENGTH" title="Frische Perspektiven statt traditioneller Ansätze." />
           
-          <div className="mt-12 border border-border bg-white p-8 rounded-card">
+          <div className="mt-12 border border-border bg-white p-8 rounded-card hover:border-primary-accent hover:shadow-lg hover:shadow-primary-accent/10 transition-all duration-300 hover:-translate-y-1">
             <p className="text-lg text-text-secondary mb-6">Unser Alter ist kein Makel, sondern Teil unseres Blickwinkels. Wir verbinden wissenschaftliche Ernsthaftigkeit mit der Fähigkeit, neue Systeme schnell zu verstehen, direkt zu testen und ehrlich zu hinterfragen.</p>
             
             <div className="grid md:grid-cols-2 gap-8">

@@ -37,7 +37,7 @@ export default function Contact() {
           <SectionHeader label="GET IN TOUCH" title="So erreichen Sie uns" />
           
           <div className="grid md:grid-cols-2 gap-8 mt-12">
-            <div className="border border-border bg-surface p-8 rounded-card">
+            <div className="border border-border bg-surface p-8 rounded-card hover:border-primary-accent hover:shadow-lg hover:shadow-primary-accent/10 transition-all duration-300 hover:-translate-y-1">
               <h3 className="text-xl font-semibold text-text-primary mb-6">Direkter Kontakt</h3>
               <div className="space-y-4">
                 <div>
@@ -51,7 +51,7 @@ export default function Contact() {
               </div>
             </div>
 
-            <div className="border border-border bg-surface p-8 rounded-card">
+            <div className="border border-border bg-surface p-8 rounded-card hover:border-primary-accent hover:shadow-lg hover:shadow-primary-accent/10 transition-all duration-300 hover:-translate-y-1">
               <h3 className="text-xl font-semibold text-text-primary mb-6">Wir freuen uns auf Ihre Nachricht</h3>
               <p className="text-text-secondary mb-6">
                 Egal ob Unternehmen, Sportverein oder Einzelperson: Wir beraten Sie gerne zu Ihren Anforderungen und finden gemeinsam die passende Lösung.
@@ -66,7 +66,7 @@ export default function Contact() {
         <div className="container">
           <SectionHeader label="OFFICE" title="Standort" />
           
-          <div className="mt-12 border border-border bg-white p-8 rounded-card">
+          <div className="mt-12 border border-border bg-white p-8 rounded-card hover:border-primary-accent hover:shadow-lg hover:shadow-primary-accent/10 transition-all duration-300 hover:-translate-y-1">
             <p className="text-text-secondary mb-4">
               PROVOID ist in Hamburg beheimatet und arbeitet deutschlandweit sowie digital mit Kunden zusammen.
             </p>

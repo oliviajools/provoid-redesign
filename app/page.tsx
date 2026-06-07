@@ -69,7 +69,7 @@ export default function Home() {
           <SectionHeader label="WHAT WE DO" title="Zwei Leistungsfelder" />
           
           <div className="grid md:grid-cols-2 gap-8 mt-12">
-            <div className="border border-border bg-white p-6 rounded-card hover:border-primary-accent/40 transition-colors">
+            <div className="border border-border bg-white p-6 rounded-card hover:border-primary-accent hover:shadow-lg hover:shadow-primary-accent/10 transition-all duration-300 hover:-translate-y-1">
               <h3 className="text-2xl font-semibold text-text-primary mb-4">Neuromarketing</h3>
               <p className="text-sm text-text-muted mb-6">Für Unternehmen & Marken</p>
               <div className="space-y-4 text-sm">
@@ -88,7 +88,7 @@ export default function Home() {
               </div>
             </div>
 
-            <div className="border border-primary-accent/50 bg-white p-6 rounded-card hover:border-primary-accent transition-colors">
+            <div className="border border-primary-accent/50 bg-white p-6 rounded-card hover:border-primary-accent hover:shadow-lg hover:shadow-primary-accent/10 transition-all duration-300 hover:-translate-y-1">
               <h3 className="text-2xl font-semibold text-text-primary mb-4">Neuroathletik</h3>
               <p className="text-sm text-text-muted mb-6">Für Sportvereine & Athlet:innen</p>
               <div className="space-y-4 text-sm">
@@ -285,7 +285,7 @@ export default function Home() {
         <div className="container">
           <SectionHeader label="NEUROINSIGHT" title="Unsere Publikation" description="NeuroInsight ist unsere erste, eigene wissenschaftliche Publikation über die personalisierte Messbarkeit von Hirnwellen zur Performancesteigerung." />
           
-          <div className="mt-12 border border-border bg-white p-8 rounded-card hover:border-primary-accent/40 transition-colors">
+          <div className="mt-12 border border-border bg-white p-8 rounded-card hover:border-primary-accent hover:shadow-lg hover:shadow-primary-accent/10 transition-all duration-300 hover:-translate-y-1">
             <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-6">
               <div>
                 <h3 className="text-2xl font-semibold text-text-primary mb-2">NeuroInsight</h3>

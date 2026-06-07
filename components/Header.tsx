@@ -2,10 +2,19 @@
 
 import Link from "next/link";
 import { useState } from "react";
+import { usePathname } from "next/navigation";
 import { Menu, X } from "lucide-react";
 
 export function Header() {
+  const pathname = usePathname();
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+
+  const isActive = (path: string) => {
+    if (path === "/") {
+      return pathname === "/";
+    }
+    return pathname.startsWith(path);
+  };
 
   return (
     <header className="sticky top-0 z-50 w-full border-b border-border bg-surface/95 backdrop-blur">
@@ -19,12 +28,12 @@ export function Header() {
         </Link>
 
         <nav className="hidden md:flex items-center gap-8">
-          <Link href="/" className="text-sm font-medium text-text-primary hover:text-primary-accent transition-colors">Home</Link>
-          <Link href="/company" className="text-sm font-medium text-text-primary hover:text-primary-accent transition-colors">Company</Link>
-          <Link href="/sports" className="text-sm font-medium text-text-primary hover:text-primary-accent transition-colors">Sports</Link>
-          <Link href="/insights" className="text-sm font-medium text-text-primary hover:text-primary-accent transition-colors">Neuro-Insights</Link>
-          <Link href="/about" className="text-sm font-medium text-text-primary hover:text-primary-accent transition-colors">About</Link>
-          <Link href="/kontakt" className="text-sm font-medium text-primary-accent hover:text-primary-light transition-colors">Kontakt</Link>
+          <Link href="/" className={`text-sm font-medium ${isActive("/") ? "text-primary-accent" : "text-text-primary"} hover:text-primary-accent transition-colors`}>Home</Link>
+          <Link href="/company" className={`text-sm font-medium ${isActive("/company") ? "text-primary-accent" : "text-text-primary"} hover:text-primary-accent transition-colors`}>Company</Link>
+          <Link href="/sports" className={`text-sm font-medium ${isActive("/sports") ? "text-primary-accent" : "text-text-primary"} hover:text-primary-accent transition-colors`}>Sports</Link>
+          <Link href="/insights" className={`text-sm font-medium ${isActive("/insights") ? "text-primary-accent" : "text-text-primary"} hover:text-primary-accent transition-colors`}>Neuro-Insights</Link>
+          <Link href="/about" className={`text-sm font-medium ${isActive("/about") ? "text-primary-accent" : "text-text-primary"} hover:text-primary-accent transition-colors`}>About</Link>
+          <Link href="/kontakt" className={`text-sm font-medium ${isActive("/kontakt") ? "text-primary-accent" : "text-primary-accent"} hover:text-primary-light transition-colors`}>Kontakt</Link>
         </nav>
 
         <button onClick={() => setMobileMenuOpen(!mobileMenuOpen)} className="md:hidden p-2 text-text-primary" aria-label="Toggle menu">

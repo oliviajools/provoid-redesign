@@ -20,10 +20,10 @@ export default function Home() {
           <div className="max-w-4xl flex items-start justify-between gap-8">
             <div>
               <h1 className="text-4xl md:text-6xl lg:text-7xl font-semibold tracking-tight text-text-primary mb-6">
-                NEUROFREUNDLICHE KI-INTEGRATION.
+                NEUROSCIENCE FOR PERFORMANCE.
               </h1>
               <p className="text-lg md:text-xl text-text-secondary mb-8 max-w-3xl">
-                PROVOID verbindet Mensch, Neurowissenschaft und KI. Wir etablieren neurofreundliche Technologie in Unternehmen, Institutionen und Einrichtungen — verständlich, praxisnah und messbar.
+                PROVOID verbindet Mensch, Neurowissenschaft und KI. Wir etablieren neurofreundliche Technologie in Unternehmen, Institutionen und Einrichtungen. Verständlich, praxisnah und messbar.
               </p>
               <div className="text-2xl md:text-3xl font-semibold tracking-tight text-primary-accent mb-8">
                 VERSTEHEN. INTEGRIEREN. VERÄNDERN.
@@ -51,15 +51,15 @@ export default function Home() {
       <section className="py-section-mobile md:py-section bg-white border-t border-primary-accent/10">
         <div className="container">
           <SectionHeader
-            label="WHO WE ARE"
+            label="UNSERE MISSION"
             title={
             <div className="leading-tight">
-              Neurowissenschaftlich fundiert.<br />
-              KI-gestützt.<br />
-              Menschlich umgesetzt.
+              Wir gestalten Fortschritt.<br />
+              Damit das Gehirn nicht<br />
+              auf der Strecke bleibt.
             </div>
           }
-            description="PROVOID schlägt die Brücke zwischen Neurowissenschaft, Künstlicher Intelligenz und menschlichen Bedürfnissen. Wir begleiten Unternehmen, Bildungs- und Facheinrichtungen dabei, KI so zu integrieren, dass sie kognitive Ressourcen schont und Leistungsfähigkeit fördert."
+            description="PROVOID verbindet Neurowissenschaft, Künstliche Intelligenz und menschliche Bedürfnisse. Wir begleiten Unternehmen, Bildungseinrichtungen und Fachinstitutionen dabei, Technologie so einzusetzen, dass sie Menschen entlastet, Fähigkeiten stärkt und nachhaltigen Fortschritt ermöglicht."
           />
         </div>
       </section>
@@ -327,7 +327,7 @@ export default function Home() {
 
       <section className="py-section-mobile md:py-section bg-surface bg-primary-accent/10">
         <div className="container">
-          <SectionHeader label="CONTACT" title="Bereit für den nächsten Schritt?" description={<>Ob Unternehmen, Bildungseinrichtung oder Institution —<br />der effektivste Weg zur Veränderung ist ein persönliches Gespräch.</>} />
+          <SectionHeader label="CONTACT" title="Bereit für den nächsten Schritt?" description={<>Ob Unternehmen, Bildungseinrichtung oder Institution:<br />Der effektivste Weg zur Veränderung ist ein persönliches Gespräch.</>} />
           
           <div className="mt-12">
             <CTABlock primary={{ text: "Gespräch buchen", href: "/kontakt" }} secondary={{ text: "E-Mail schreiben", href: "mailto:olivia@provoid.de" }} />

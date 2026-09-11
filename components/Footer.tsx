@@ -16,10 +16,10 @@ export function Footer() {
             <h4 className="text-sm font-semibold uppercase tracking-wider text-text-muted mb-4">Navigation</h4>
             <ul className="space-y-2">
               <li><Link href="/" className="text-sm text-text-primary hover:text-text-secondary transition-colors">Home</Link></li>
-              <li><Link href="/company" className="text-sm text-text-primary hover:text-text-secondary transition-colors">Company</Link></li>
-              <li><Link href="/sports" className="text-sm text-text-primary hover:text-text-secondary transition-colors">Sports</Link></li>
+              <li><Link href="/company" className="text-sm text-text-primary hover:text-text-secondary transition-colors">KI & Bildung</Link></li>
               <li><Link href="/insights" className="text-sm text-text-primary hover:text-text-secondary transition-colors">Neuro-Insights</Link></li>
               <li><Link href="/about" className="text-sm text-text-primary hover:text-text-secondary transition-colors">About</Link></li>
+              <li><Link href="/sports" className="text-sm text-text-primary hover:text-text-secondary transition-colors">Sports</Link></li>
             </ul>
           </div>
 

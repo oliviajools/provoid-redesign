@@ -29,8 +29,7 @@ export function Header() {
 
         <nav className="hidden md:flex items-center gap-8">
           <Link href="/" className={`text-sm font-medium ${isActive("/") ? "text-primary-accent" : "text-text-primary"} hover:text-primary-accent transition-colors`}>Home</Link>
-          <Link href="/company" className={`text-sm font-medium ${isActive("/company") ? "text-primary-accent" : "text-text-primary"} hover:text-primary-accent transition-colors`}>Company</Link>
-          <Link href="/sports" className={`text-sm font-medium ${isActive("/sports") ? "text-primary-accent" : "text-text-primary"} hover:text-primary-accent transition-colors`}>Sports</Link>
+          <Link href="/company" className={`text-sm font-medium ${isActive("/company") ? "text-primary-accent" : "text-text-primary"} hover:text-primary-accent transition-colors`}>KI & Bildung</Link>
           <Link href="/insights" className={`text-sm font-medium ${isActive("/insights") ? "text-primary-accent" : "text-text-primary"} hover:text-primary-accent transition-colors`}>Neuro-Insights</Link>
           <Link href="/about" className={`text-sm font-medium ${isActive("/about") ? "text-primary-accent" : "text-text-primary"} hover:text-primary-accent transition-colors`}>About</Link>
           <Link href="/kontakt" className={`text-sm font-medium ${isActive("/kontakt") ? "text-primary-accent" : "text-text-primary"} hover:text-primary-accent transition-colors`}>Kontakt</Link>
@@ -52,8 +51,7 @@ export function Header() {
               </div>
             </div>
             <Link href="/" className={`text-sm font-medium ${isActive("/") ? "text-primary-accent" : "text-text-primary"}`} onClick={() => setMobileMenuOpen(false)}>Home</Link>
-            <Link href="/company" className={`text-sm font-medium ${isActive("/company") ? "text-primary-accent" : "text-text-primary"}`} onClick={() => setMobileMenuOpen(false)}>Company</Link>
-            <Link href="/sports" className={`text-sm font-medium ${isActive("/sports") ? "text-primary-accent" : "text-text-primary"}`} onClick={() => setMobileMenuOpen(false)}>Sports</Link>
+            <Link href="/company" className={`text-sm font-medium ${isActive("/company") ? "text-primary-accent" : "text-text-primary"}`} onClick={() => setMobileMenuOpen(false)}>KI & Bildung</Link>
             <Link href="/insights" className={`text-sm font-medium ${isActive("/insights") ? "text-primary-accent" : "text-text-primary"}`} onClick={() => setMobileMenuOpen(false)}>Neuro-Insights</Link>
             <Link href="/about" className={`text-sm font-medium ${isActive("/about") ? "text-primary-accent" : "text-text-primary"}`} onClick={() => setMobileMenuOpen(false)}>About</Link>
             <Link href="/kontakt" className={`text-sm font-medium ${isActive("/kontakt") ? "text-primary-accent" : "text-text-primary"}`} onClick={() => setMobileMenuOpen(false)}>Kontakt</Link>

@@ -20,13 +20,13 @@ export default function Home() {
           <div className="max-w-4xl flex items-start justify-between gap-8">
             <div>
               <h1 className="text-4xl md:text-6xl lg:text-7xl font-semibold tracking-tight text-text-primary mb-6">
-                NEUROSCIENCE FOR PERFORMANCE.
+                NEUROFREUNDLICHE KI-INTEGRATION.
               </h1>
               <p className="text-lg md:text-xl text-text-secondary mb-8 max-w-3xl">
-                PROVOID übersetzt neurowissenschaftliche Forschung in klare, anwendbare Systeme für bessere Entscheidungen, stärkere Performance und messbare Entwicklung.
+                PROVOID verbindet Mensch, Neurowissenschaft und KI. Wir etablieren neurofreundliche Technologie in Unternehmen, Institutionen und Einrichtungen — verständlich, praxisnah und messbar.
               </p>
               <div className="text-2xl md:text-3xl font-semibold tracking-tight text-primary-accent mb-8">
-                VERSTEHEN. MESSEN. VERÄNDERN.
+                VERSTEHEN. INTEGRIEREN. VERÄNDERN.
               </div>
               <CTABlock
                 primary={{ text: "Gespräch buchen", href: "/kontakt" }}
@@ -54,55 +54,55 @@ export default function Home() {
             label="WHO WE ARE"
             title={
             <div className="leading-tight">
-              Wissenschaftlich fundiert.<br />
-              Unternehmerisch gedacht.<br />
-              Praktisch angewandt.
+              Neurowissenschaftlich fundiert.<br />
+              KI-gestützt.<br />
+              Menschlich umgesetzt.
             </div>
           }
-            description="PROVOID verbindet Neurowissenschaft, Verhaltenspsychologie und angewandte Performance-Strategien. Wir machen sichtbar, was Entscheidungen, Motivation und Verhalten wirklich beeinflusst, in Unternehmen, Teams und im Leistungssport."
+            description="PROVOID schlägt die Brücke zwischen Neurowissenschaft, Künstlicher Intelligenz und menschlichen Bedürfnissen. Wir begleiten Unternehmen, Bildungs- und Facheinrichtungen dabei, KI so zu integrieren, dass sie kognitive Ressourcen schont und Leistungsfähigkeit fördert."
           />
         </div>
       </section>
 
       <section className="py-section-mobile md:py-section bg-surface bg-primary-accent/10">
         <div className="container">
-          <SectionHeader label="WHAT WE DO" title="Zwei Leistungsfelder" />
+          <SectionHeader label="WHAT WE DO" title="Zwei Fokusfelder" />
           
           <div className="grid md:grid-cols-2 gap-8 mt-12">
             <div className="border border-border bg-white p-6 rounded-card hover:border-primary-accent hover:shadow-lg hover:shadow-primary-accent/10 transition-all duration-300 hover:-translate-y-1">
-              <h3 className="text-2xl font-semibold text-text-primary mb-4">Neuromarketing</h3>
-              <p className="text-sm text-text-muted mb-6">Für Unternehmen & Marken</p>
+              <h3 className="text-2xl font-semibold text-text-primary mb-4">Neurofreundliche KI-Integration</h3>
+              <p className="text-sm text-text-muted mb-6">Für Unternehmen, Institutionen & Einrichtungen</p>
               <div className="space-y-4 text-sm">
                 <div>
-                  <p className="font-semibold text-text-primary mb-2">Angebote</p>
-                  <p className="text-text-secondary">Seminare, Workshops, Beratung und langfristige Partnerschaften</p>
+                  <p className="font-semibold text-text-primary mb-2">Beratung & Strategie</p>
+                  <p className="text-text-secondary">Neurofreundliche KI-Roadmaps, Anforderungsanalysen und Integrationspläne</p>
                 </div>
                 <div>
-                  <p className="font-semibold text-text-primary mb-2">Optimierung</p>
-                  <p className="text-text-secondary">Produkte und Websites neurologisch optimal erfassbar gestalten</p>
+                  <p className="font-semibold text-text-primary mb-2">Schulung & Begleitung</p>
+                  <p className="text-text-secondary">Praxisnahe Workshops für Führungskräfte, Teams und Fachexperten</p>
                 </div>
                 <div>
-                  <p className="font-semibold text-text-primary mb-2">Design & Umsetzung</p>
-                  <p className="text-text-secondary">Unterstützung bei Produktdesign und -Umsetzung bei Bedarf</p>
+                  <p className="font-semibold text-text-primary mb-2">Evaluation</p>
+                  <p className="text-text-secondary">Messung der kognitiven Entlastung, Nutzbarkeit und Akzeptanz</p>
                 </div>
               </div>
             </div>
 
             <div className="border border-primary-accent/50 bg-white p-6 rounded-card hover:border-primary-accent hover:shadow-lg hover:shadow-primary-accent/10 transition-all duration-300 hover:-translate-y-1">
-              <h3 className="text-2xl font-semibold text-text-primary mb-4">Neuroathletik</h3>
-              <p className="text-sm text-text-muted mb-6">Für Sportvereine & Athlet:innen</p>
+              <h3 className="text-2xl font-semibold text-text-primary mb-4">KI in Bildung</h3>
+              <p className="text-sm text-text-muted mb-6">Für Schulen, Lehrkräfte & SchülerInnen in Hamburg</p>
               <div className="space-y-4 text-sm">
                 <div>
-                  <p className="font-semibold text-text-primary mb-2">Saisonprogramme</p>
-                  <p className="text-text-secondary">Neuro-Edukation, Neurotrainingssessions und individuelle Betreuung bei Bedarf</p>
+                  <p className="font-semibold text-text-primary mb-2">Lehrkräfte</p>
+                  <p className="text-text-secondary">Fortbildung zu KI-gestütztem Unterricht mit Fokus auf kognitive Entlastung</p>
                 </div>
                 <div>
-                  <p className="font-semibold text-text-primary mb-2">Einzelsportler:innen</p>
-                  <p className="text-text-secondary">Arbeit im Leistungsbereich auf Anfrage möglich</p>
+                  <p className="font-semibold text-text-primary mb-2">SchülerInnen</p>
+                  <p className="text-text-secondary">Workshops zu verantwortungsvollem KI-Einsatz und individuellem Lernen</p>
                 </div>
                 <div>
-                  <p className="font-semibold text-text-primary mb-2">Digitaler Zugang</p>
-                  <p className="text-text-secondary">Zugang zur PROVOID App für Training und Tracking</p>
+                  <p className="font-semibold text-text-primary mb-2">Bildungseinrichtungen</p>
+                  <p className="text-text-secondary">Begleitung bei der Einführung neurofreundlicher KI-Werkzeuge</p>
                 </div>
               </div>
             </div>
@@ -112,11 +112,11 @@ export default function Home() {
 
       <section className="py-section-mobile md:py-section bg-white border-t border-primary-accent/10">
         <div className="container">
-          <SectionHeader label="SOLUTIONS" title="Unsere Lösung für Ihre Herausforderung." />
+          <SectionHeader label="SOLUTIONS" title="Unsere Lösungen im Überblick." />
           
           <div className="grid md:grid-cols-2 gap-8 mt-12">
-            <ProductCard title="PROVOID Company" description="Für Unternehmen, Marken und Teams." cta="Company ansehen" href="/company" accent={false} />
-            <ProductCard title="PROVOID Sports" description="Für Vereine, Athlet:innen und Trainerteams." cta="Sports ansehen" href="/sports" accent={false} />
+            <ProductCard title="PROVOID KI-Integration" description="Neurofreundliche KI für Unternehmen, Institutionen und Einrichtungen." cta="Mehr erfahren" href="/company" accent={false} />
+            <ProductCard title="PROVOID Bildung" description="KI-Einführung für Lehrkräfte und SchülerInnen in Hamburg." cta="Mehr erfahren" href="/company" accent={false} />
           </div>
         </div>
       </section>
@@ -182,13 +182,13 @@ export default function Home() {
               }`}
               onClick={() => setExpandedCard(expandedCard === 2 ? null : 2)}
             >
-              <p className="text-sm font-semibold uppercase tracking-wider text-text-muted mb-2">Sportpsychologie</p>
-              <h3 className="text-lg font-semibold text-text-primary mb-3">Neurofeedback im Sport</h3>
+              <p className="text-sm font-semibold uppercase tracking-wider text-text-muted mb-2">KI & Kognition</p>
+              <h3 className="text-lg font-semibold text-text-primary mb-3">Cognitive Load bei KI-Werkzeugen</h3>
               <p className={`text-sm text-text-secondary transition-all duration-300 ${expandedCard === 2 ? '' : 'line-clamp-2'}`}>
-                Neurofeedback-Training kann die Fokusfähigkeit und Stressregulation bei Athleten signifikant verbessern.
+                Gut gestaltete KI-Tools reduzieren kognitive Belastung, schaffen Vertrauen und erhöhen die nachhaltige Nutzungsrate.
               </p>
               <div className={`mt-4 transition-all duration-300 ${expandedCard === 2 ? 'opacity-100 max-h-20' : 'opacity-0 max-h-0 overflow-hidden'}`}>
-                <p className="text-sm text-text-muted italic">Validiert unseren Ansatz für digitale mentale Trainings.</p>
+                <p className="text-sm text-text-muted italic">Begründet unseren Fokus auf nutzerfreundliche KI-Integration.</p>
               </div>
               <div className="mt-4 flex items-center text-sm text-primary-accent">
                 <span>{expandedCard === 2 ? 'Weniger anzeigen' : 'Mehr erfahren'}</span>
@@ -203,7 +203,7 @@ export default function Home() {
 
       <section className="py-section-mobile md:py-section bg-white border-t border-primary-accent/10">
         <div className="container">
-          <SectionHeader label="DECISION JOURNEY" title="Die Reise einer Kaufentscheidung" />
+          <SectionHeader label="INTEGRATION JOURNEY" title="Die Reise einer KI-Integration" />
           
           <div className="mt-12">
             <div className="flex items-center justify-center gap-2 mb-8">
@@ -218,12 +218,12 @@ export default function Home() {
               </button>
 
               {[
-                { number: "01", title: "Wahrnehmung", description: "Erster Kontakt mit Marke oder Produkt, oft unbewusst und durch Muster gesteuert." },
-                { number: "02", title: "Emotion", description: "Gefühlhafte Reaktion, das limbische System bewertet, bevor der Verstand urteilt." },
-                { number: "03", title: "Bewertung", description: "Rationale Begründung, der Verstand sucht nach Argumenten für die emotionale Entscheidung." },
-                { number: "04", title: "Aktivierung", description: "Vorbereitung der Handlung, neuronale Pfade für die Entscheidung werden gestärkt." },
-                { number: "05", title: "Entscheidung", description: "Der Moment der Wahl, oft als rational erlebt, aber emotional vorbereitet." },
-                { number: "06", title: "Handlung", description: "Umsetzung, Kauf, Kontakt oder weitere Interaktion." }
+                { number: "01", title: "Lagebild", description: "Wir ermitteln Ausgangslage, kognitive Belastung und passende KI-Potenziale." },
+                { number: "02", title: "Selektion", description: "Gemeinsame Auswahl von Tools, die zum Kontext, Zielgruppe und Schulkonzept passen." },
+                { number: "03", title: "Pilot", description: "Erprobung in einer kleinen Gruppe, Sammeln von Feedback und Anpassung der Workflows." },
+                { number: "04", title: "Training", description: "Zielgruppengerechte Schulung von Lehrkräften und SchülerInnen für souveränen Umgang." },
+                { number: "05", title: "Evaluation", description: "Messung von Akzeptanz, Entlastung und Lernwirksamkeit auf neurologischer Ebene." },
+                { number: "06", title: "Skalierung", description: "Gestufte Ausweitung und Verankerung in der Organisation oder Bildungseinrichtung." }
               ].map((step, index) => (
                 <button
                   key={index}
@@ -260,17 +260,17 @@ export default function Home() {
                   <div className="flex-1 text-center">
                     <h4 className="text-xl font-semibold text-text-primary mb-3">
                       {[
-                        "Wahrnehmung", "Emotion", "Bewertung", "Aktivierung", "Entscheidung", "Handlung"
+                        "Lagebild", "Selektion", "Pilot", "Training", "Evaluation", "Skalierung"
                       ][activeStep]}
                     </h4>
                     <p className="text-base text-text-secondary">
                       {[
-                        "Dies ist der erste Kontakt mit einer Marke oder einem Produkt, der oft unbewusst und durch Muster gesteuert erfolgt.",
-                        "Es entsteht eine gefühlhafte Reaktion, bei der das limbische System bewertet, bevor der Verstand urteilt.",
-                        "Es folgt eine rationale Begründung, bei der der Verstand nach Argumenten für die emotionale Entscheidung sucht.",
-                        "Es erfolgt die Vorbereitung der Handlung, bei der neuronale Pfade für die Entscheidung gestärkt werden.",
-                        "Dies ist der Moment der Wahl, der oft als rational erlebt wird, aber emotional vorbereitet ist.",
-                        "Es erfolgt die Umsetzung durch Kauf, Kontakt oder weitere Interaktion."
+                        "Wir ermitteln Ausgangslage, kognitive Belastung und passende KI-Potenziale.",
+                        "Gemeinsame Auswahl von Tools, die zum Kontext, Zielgruppe und Schulkonzept passen.",
+                        "Erprobung in einer kleinen Gruppe, Sammeln von Feedback und Anpassung der Workflows.",
+                        "Zielgruppengerechte Schulung von Lehrkräften und SchülerInnen für souveränen Umgang.",
+                        "Messung von Akzeptanz, Entlastung und Lernwirksamkeit auf neurologischer Ebene.",
+                        "Gestufte Ausweitung und Verankerung in der Organisation oder Bildungseinrichtung."
                       ][activeStep]}
                     </p>
                   </div>
@@ -327,7 +327,7 @@ export default function Home() {
 
       <section className="py-section-mobile md:py-section bg-surface bg-primary-accent/10">
         <div className="container">
-          <SectionHeader label="CONTACT" title="Bereit für den nächsten Schritt?" description={<>Ob Unternehmen, Sportorganisation oder Forschungskooperation -<br />der effektivste Weg zur Veränderung ist ein persönliches Gespräch.</>} />
+          <SectionHeader label="CONTACT" title="Bereit für den nächsten Schritt?" description={<>Ob Unternehmen, Bildungseinrichtung oder Institution —<br />der effektivste Weg zur Veränderung ist ein persönliches Gespräch.</>} />
           
           <div className="mt-12">
             <CTABlock primary={{ text: "Gespräch buchen", href: "/kontakt" }} secondary={{ text: "E-Mail schreiben", href: "mailto:olivia@provoid.de" }} />

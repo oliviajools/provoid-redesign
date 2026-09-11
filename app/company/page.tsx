@@ -16,10 +16,10 @@ export default function Company() {
           <div className="max-w-4xl flex items-start justify-between gap-8">
             <div>
               <h1 className="text-4xl md:text-6xl lg:text-7xl font-semibold tracking-tight text-text-primary mb-6">
-                ENTSCHEIDUNGEN VERSTEHEN - WACHSTUM STEUERN.
+                KI-INTEGRATION, DIE BEWUSST MACHEN KANN.
               </h1>
               <p className="text-lg md:text-xl text-text-secondary mb-8 max-w-3xl">
-                Wir helfen Unternehmen, Verhalten, Motivation und Kaufentscheidungen wissenschaftlich zu verstehen und daraus klare Strategien für Marketing, Kommunikation und Teams abzuleiten.
+                PROVOID etabliert neurofreundliche Künstliche Intelligenz in Unternehmen, Institutionen und Bildungseinrichtungen — immer ausgerichtet an menschlicher Kognition, kognitiver Entlastung und verantwortungsvollem Einsatz.
               </p>
               <CTABlock primary={{ text: "Erstgespräch buchen", href: "/kontakt" }} secondary={{ text: "Leistungen ansehen", href: "#services" }} />
             </div>
@@ -41,46 +41,46 @@ export default function Company() {
 
       <section id="services" className="py-section-mobile md:py-section bg-white">
         <div className="container">
-          <SectionHeader label="PRODUKTE" title="Unser Angebot für Unternehmen" />
+          <SectionHeader label="PRODUKTE" title="Unser Angebot für KI-Integration" />
           
           <div className="grid md:grid-cols-2 gap-8 mt-12">
             <div className="border border-border bg-black p-8 rounded-card hover:border-primary-accent hover:shadow-lg hover:shadow-primary-accent/10 transition-all duration-300 hover:-translate-y-1">
-              <h3 className="text-xl font-semibold text-white mb-4">Seminar: Neuroscience & Neuromarketing</h3>
-              <p className="text-sm text-gray-300 mb-4">Kompakte Einführung in Neuromarketing & Consumer Neuroscience</p>
+              <h3 className="text-xl font-semibold text-white mb-4">Neurofreundliche KI-Integration</h3>
+              <p className="text-sm text-gray-300 mb-4">Strategie, Auswahl und Einführung von KI-Tools, die menschliche Kognition unterstützen</p>
               <div className="space-y-3 text-sm">
-                <div className="flex items-start gap-3"><span className="text-primary-accent mt-1">•</span><span className="text-gray-300">Bessere Kunden- und Kaufprozess-Insights</span></div>
-                <div className="flex items-start gap-3"><span className="text-primary-accent mt-1">•</span><span className="text-gray-300">Neue Perspektiven für Entwicklung & Marketing</span></div>
-                <div className="flex items-start gap-3"><span className="text-primary-accent mt-1">•</span><span className="text-gray-300">Wissenschaftliches Fundament für Strategien</span></div>
+                <div className="flex items-start gap-3"><span className="text-primary-accent mt-1">•</span><span className="text-gray-300">Bedarfsermittlung und passende KI-Use-Cases</span></div>
+                <div className="flex items-start gap-3"><span className="text-primary-accent mt-1">•</span><span className="text-gray-300">Gestaltung kognitiv entlastender Workflows</span></div>
+                <div className="flex items-start gap-3"><span className="text-primary-accent mt-1">•</span><span className="text-gray-300">Veränderungsmanagement und Team-Schulung</span></div>
               </div>
             </div>
 
             <div className="border border-border bg-black p-8 rounded-card hover:border-primary-accent hover:shadow-lg hover:shadow-primary-accent/10 transition-all duration-300 hover:-translate-y-1">
-              <h3 className="text-xl font-semibold text-white mb-4">Workshop: Branchenspezifisch & Hands-On</h3>
-              <p className="text-sm text-gray-300 mb-4">Maßgeschneidertes Format mit klaren Strategien und konkreten Umsetzungs-Sprints</p>
+              <h3 className="text-xl font-semibold text-white mb-4">KI in Schulen & Bildung</h3>
+              <p className="text-sm text-gray-300 mb-4">Aktueller Fokus: Lehrkräfte und SchülerInnen in Hamburg</p>
               <div className="space-y-3 text-sm">
-                <div className="flex items-start gap-3"><span className="text-primary-accent mt-1">•</span><span className="text-gray-300">Für Branding, Marketing, Produktentwicklung und Produktdesign</span></div>
-                <div className="flex items-start gap-3"><span className="text-primary-accent mt-1">•</span><span className="text-gray-300">Konkrete Entscheidungen und Umsetzungen direkt anstoßen</span></div>
-                <div className="flex items-start gap-3"><span className="text-primary-accent mt-1">•</span><span className="text-gray-300">Praktische Anwendung statt nur Wissen</span></div>
+                <div className="flex items-start gap-3"><span className="text-primary-accent mt-1">•</span><span className="text-gray-300">Fortbildungen für Lehrkräfte zu KI im Unterricht</span></div>
+                <div className="flex items-start gap-3"><span className="text-primary-accent mt-1">•</span><span className="text-gray-300">Workshops für SchülerInnen: KI verstehen und nutzen</span></div>
+                <div className="flex items-start gap-3"><span className="text-primary-accent mt-1">•</span><span className="text-gray-300">Langfristige Begleitung von Schulen und Trägern</span></div>
               </div>
             </div>
 
             <div className="border border-border bg-black p-8 rounded-card hover:border-primary-accent hover:shadow-lg hover:shadow-primary-accent/10 transition-all duration-300 hover:-translate-y-1">
-              <h3 className="text-xl font-semibold text-white mb-4">EEG-Produktevaluation & Analyse</h3>
-              <p className="text-sm text-gray-300 mb-4">Testung der neuronalen Wirkung von Produkten inkl. Interpretation & Handlungsempfehlungen</p>
+              <h3 className="text-xl font-semibold text-white mb-4">Neuro-Cognitive Evaluation</h3>
+              <p className="text-sm text-gray-300 mb-4">Objektive Messung der kognitiven Wirkung von KI-Tools und digitalen Prozessen</p>
               <div className="space-y-3 text-sm">
-                <div className="flex items-start gap-3"><span className="text-primary-accent mt-1">•</span><span className="text-gray-300">EEG-Testung (optional ergänzend fMRI)</span></div>
-                <div className="flex items-start gap-3"><span className="text-primary-accent mt-1">•</span><span className="text-gray-300">Datenbasierte Entscheidungen im Produktdesign</span></div>
-                <div className="flex items-start gap-3"><span className="text-primary-accent mt-1">•</span><span className="text-gray-300">Besonders bei high-stakes Entscheidungen (Positionierung, Design)</span></div>
+                <div className="flex items-start gap-3"><span className="text-primary-accent mt-1">•</span><span className="text-gray-300">EEG-basierte Aufmerksamkeits- und Belastungsanalysen</span></div>
+                <div className="flex items-start gap-3"><span className="text-primary-accent mt-1">•</span><span className="text-gray-300">Evaluierung von Benutzbarkeit und Akzeptanz</span></div>
+                <div className="flex items-start gap-3"><span className="text-primary-accent mt-1">•</span><span className="text-gray-300">Ableitung konkreter Optimierungsmaßnahmen</span></div>
               </div>
             </div>
 
             <div className="border border-primary-accent bg-black p-8 rounded-card hover:border-primary-accent hover:shadow-lg hover:shadow-primary-accent/10 transition-all duration-300 hover:-translate-y-1">
-              <h3 className="text-xl font-semibold text-white mb-4">Begleitende Produktentwicklung</h3>
-              <p className="text-sm text-gray-300 mb-4">Kontinuierliche Begleitung von der Idee bis zur Umsetzung</p>
+              <h3 className="text-xl font-semibold text-white mb-4">Begleitung & Entwicklung</h3>
+              <p className="text-sm text-gray-300 mb-4">Von der ersten Analyse bis zur verankerten KI-Nutzung</p>
               <div className="space-y-3 text-sm">
-                <div className="flex items-start gap-3"><span className="text-primary-accent mt-1">•</span><span className="text-gray-300">Neurowissenschaftliche Perspektive und Feedback-Loops</span></div>
-                <div className="flex items-start gap-3"><span className="text-primary-accent mt-1">•</span><span className="text-gray-300">Priorisierung für bessere Produkt- und Marketingentscheidungen</span></div>
-                <div className="flex items-start gap-3"><span className="text-primary-accent mt-1">•</span><span className="text-gray-300">Schnell lernen, iterieren und messbar bessere Entscheidungen treffen</span></div>
+                <div className="flex items-start gap-3"><span className="text-primary-accent mt-1">•</span><span className="text-gray-300">Roadmaps und iterative Pilotprojekte</span></div>
+                <div className="flex items-start gap-3"><span className="text-primary-accent mt-1">•</span><span className="text-gray-300">Entwicklung neurofreundlicher Software und Apps</span></div>
+                <div className="flex items-start gap-3"><span className="text-primary-accent mt-1">•</span><span className="text-gray-300">Langfristige Partnerschaft für nachhaltige Integration</span></div>
               </div>
             </div>
           </div>
@@ -89,26 +89,26 @@ export default function Company() {
 
       <section className="py-section-mobile md:py-section bg-white">
         <div className="container">
-          <SectionHeader label="THE PROBLEM" title="Die meisten Strategien beginnen zu spät." description="Viele Unternehmen verlassen sich auf Umfragen, Annahmen oder oberflächliche Daten. Doch Entscheidungen entstehen oft, bevor Menschen sie bewusst erklären können." />
+          <SectionHeader label="THE PROBLEM" title="KI einführen, ohne die Menschen zu überfordern." description="Viele Institutionen setzen KI ein, bevor sie verstanden haben, wie diese Tools die kognitive Belastung der Nutzenden verändern. Wir machen die Auswirkungen sichtbar und gestalten den Einsatz bewusst." />
           
           <div className="grid md:grid-cols-2 gap-8 mt-12">
             <div className="border border-border bg-surface p-8 rounded-card hover:border-primary-accent hover:shadow-lg hover:shadow-primary-accent/10 transition-all duration-300 hover:-translate-y-1">
               <h3 className="text-lg font-semibold text-text-primary mb-6">Ohne PROVOID</h3>
               <ul className="space-y-4">
-                <li className="flex items-start gap-3"><span className="text-text-muted mt-1">•</span><span className="text-text-secondary">Annahmen statt Mechanismen</span></li>
-                <li className="flex items-start gap-3"><span className="text-text-muted mt-1">•</span><span className="text-text-secondary">Zielgruppen ohne psychologische Tiefe</span></li>
-                <li className="flex items-start gap-3"><span className="text-text-muted mt-1">•</span><span className="text-text-secondary">Kommunikation ohne neuronale Relevanz</span></li>
-                <li className="flex items-start gap-3"><span className="text-text-muted mt-1">•</span><span className="text-text-secondary">Conversion-Potenzial bleibt ungenutzt</span></li>
+                <li className="flex items-start gap-3"><span className="text-text-muted mt-1">•</span><span className="text-text-secondary">KI-Tools werden isoliert eingeführt</span></li>
+                <li className="flex items-start gap-3"><span className="text-text-muted mt-1">•</span><span className="text-text-secondary">Cognitive Load und Ablehnung wachsen</span></li>
+                <li className="flex items-start gap-3"><span className="text-text-muted mt-1">•</span><span className="text-text-secondary">Nutzende fühlen sich überfordert</span></li>
+                <li className="flex items-start gap-3"><span className="text-text-muted mt-1">•</span><span className="text-text-secondary">Potenzial bleibt ungenutzt</span></li>
               </ul>
             </div>
 
             <div className="border border-primary-accent bg-surface p-8 rounded-card hover:border-primary-accent hover:shadow-lg hover:shadow-primary-accent/10 transition-all duration-300 hover:-translate-y-1">
               <h3 className="text-lg font-semibold text-text-primary mb-6">Mit PROVOID</h3>
               <ul className="space-y-4">
-                <li className="flex items-start gap-3"><span className="text-primary-accent mt-1">+</span><span className="text-text-secondary">Verhalten besser verstehen</span></li>
-                <li className="flex items-start gap-3"><span className="text-primary-accent mt-1">+</span><span className="text-text-secondary">Kaufmotive präzisieren</span></li>
-                <li className="flex items-start gap-3"><span className="text-primary-accent mt-1">+</span><span className="text-text-secondary">Touchpoints gehirngerecht optimieren</span></li>
-                <li className="flex items-start gap-3"><span className="text-primary-accent mt-1">+</span><span className="text-text-secondary">Entscheidungen messbarer machen</span></li>
+                <li className="flex items-start gap-3"><span className="text-primary-accent mt-1">+</span><span className="text-text-secondary">KI passend zur Organisation und Zielgruppe</span></li>
+                <li className="flex items-start gap-3"><span className="text-primary-accent mt-1">+</span><span className="text-text-secondary">Workflows werden kognitiv entlastet</span></li>
+                <li className="flex items-start gap-3"><span className="text-primary-accent mt-1">+</span><span className="text-text-secondary">Teams werden partizipativ mitgenommen</span></li>
+                <li className="flex items-start gap-3"><span className="text-primary-accent mt-1">+</span><span className="text-text-secondary">Ergebnisse werden mess- und nachvollziehbar</span></li>
               </ul>
             </div>
           </div>
@@ -117,7 +117,7 @@ export default function Company() {
 
       <section id="services" className="py-section-mobile md:py-section bg-surface">
         <div className="container">
-          <SectionHeader label="SERVICES" title="Von Analyse zu Anwendung." />
+          <SectionHeader label="SERVICES" title="Von Analyse zu verankerter KI-Nutzung." />
           
           <div className="mt-12 space-y-8">
             <div className="border border-border bg-black p-4 rounded-card hover:border-primary-accent hover:shadow-lg hover:shadow-primary-accent/10 transition-all duration-300 hover:-translate-y-1 group">
@@ -126,8 +126,8 @@ export default function Company() {
                   <span className="text-sm font-semibold uppercase tracking-wider text-gray-400 group-hover:text-primary-accent transition-colors">01</span>
                 </div>
                 <div className="flex-1">
-                  <h4 className="text-lg font-semibold text-white mb-2 group-hover:text-primary-accent transition-colors">Diagnose</h4>
-                  <p className="text-sm text-gray-300">Analyse von Zielgruppe, Kommunikation, Entscheidungswegen und psychologischen Triggern.</p>
+                  <h4 className="text-lg font-semibold text-white mb-2 group-hover:text-primary-accent transition-colors">Cognitive Audit</h4>
+                  <p className="text-sm text-gray-300">Analyse von Workflows, kognitiver Belastung und passenden KI-Use-Cases.</p>
                 </div>
               </div>
             </div>
@@ -137,8 +137,8 @@ export default function Company() {
                   <span className="text-sm font-semibold uppercase tracking-wider text-gray-400 group-hover:text-primary-accent transition-colors">02</span>
                 </div>
                 <div className="flex-1">
-                  <h4 className="text-lg font-semibold text-white mb-2 group-hover:text-primary-accent transition-colors">Neuro-Strategie</h4>
-                  <p className="text-sm text-gray-300">Ableitung konkreter Hypothesen, Botschaften, Touchpoints und Maßnahmen.</p>
+                  <h4 className="text-lg font-semibold text-white mb-2 group-hover:text-primary-accent transition-colors">Integrationsstrategie</h4>
+                  <p className="text-sm text-gray-300">Neurofreundliche Roadmap, Auswahl geeigneter Tools, Change-Konzept.</p>
                 </div>
               </div>
             </div>
@@ -148,8 +148,8 @@ export default function Company() {
                   <span className="text-sm font-semibold uppercase tracking-wider text-gray-400 group-hover:text-primary-accent transition-colors">03</span>
                 </div>
                 <div className="flex-1">
-                  <h4 className="text-lg font-semibold text-white mb-2 group-hover:text-primary-accent transition-colors">Umsetzung</h4>
-                  <p className="text-sm text-gray-300">Workshops, Kampagnenlogik, Teamformate, Tool-Integration.</p>
+                  <h4 className="text-lg font-semibold text-white mb-2 group-hover:text-primary-accent transition-colors">Pilot & Rollout</h4>
+                  <p className="text-sm text-gray-300">Praxisnahe Einführung, Schulung, Begleitung der Nutzenden.</p>
                 </div>
               </div>
             </div>
@@ -159,8 +159,8 @@ export default function Company() {
                   <span className="text-sm font-semibold uppercase tracking-wider text-gray-400 group-hover:text-primary-accent transition-colors">04</span>
                 </div>
                 <div className="flex-1">
-                  <h4 className="text-lg font-semibold text-white mb-2 group-hover:text-primary-accent transition-colors">Evaluation</h4>
-                  <p className="text-sm text-gray-300">Messung, Feedback, Optimierung, Weiterentwicklung.</p>
+                  <h4 className="text-lg font-semibold text-white mb-2 group-hover:text-primary-accent transition-colors">Evaluation & Optimierung</h4>
+                  <p className="text-sm text-gray-300">Messung der Akzeptanz, kognitiven Entlastung und Weiterentwicklung.</p>
                 </div>
               </div>
             </div>
@@ -170,7 +170,7 @@ export default function Company() {
 
       <section className="py-section-mobile md:py-section bg-white">
         <div className="container">
-          <SectionHeader label="CLIENT JOURNEY" title="Wie Wir Sie unterstützen." />
+          <SectionHeader label="CLIENT JOURNEY" title="Wie wir KI-Integration begleiten." />
           
           <div className="mt-12">
             <div className="flex items-center justify-center gap-2 mb-8">
@@ -185,11 +185,11 @@ export default function Company() {
               </button>
 
               {[
-                { number: "01", title: "Ausgangslage", description: "Ein mittelständisches Unternehmen im B2C-Bereich kämpft mit stagnierenden Conversion-Raten trotz intensiver Marketingaktivitäten." },
-                { number: "02", title: "Herausforderung", description: "Kunden wandern im Checkout-Prozess ab und es besteht Unklarheit über die tatsächlichen Kaufmotive." },
-                { number: "03", title: "Analyse", description: "Eine neurowissenschaftliche Analyse der Entscheidungspunkte identifiziert implizite Barrieren und Trigger." },
-                { number: "04", title: "Umsetzung", description: "Die Optimierung der Touchpoints basiert auf neuronalen Prinzipien und die Kommunikation wird an emotionale Entscheidungswege angepasst." },
-                { number: "05", title: "Ergebnis", description: "Es zeigt sich eine messbare Verbesserung der Conversion-Rate, eine höhere Kundenbindung und ein klareres Verständnis der Zielgruppenpsychologie." }
+                { number: "01", title: "Ausgangslage", description: "Eine Schule in Hamburg möchte KI gezielt für Lehrkräfte und SchülerInnen etablieren, ohne den Lern- und Arbeitsalltag zu überlasten." },
+                { number: "02", title: "Herausforderung", description: "Unklarheit, welche Tools passen, wie sie geschult werden und wie Akzeptanz im Kollegium entsteht." },
+                { number: "03", title: "Analyse", description: "Wir ermitteln kognitive Belastungspunkte, passende Use-Cases und die bereichsspezifischen Bedürfnisse von Lehrkräften." },
+                { number: "04", title: "Umsetzung", description: "Pilot-Workshops, schrittweise Integration, begleitendes Training und Feedback-Loops mit dem Kollegium." },
+                { number: "05", title: "Ergebnis", description: "Lehrkräfte nutzen KI selbstbewusst, SchülerInnen lernen verantwortungsvoll damit umzugehen und die Schule erhält eine tragfähige KI-Strategie." }
               ].map((step, index) => (
                 <button
                   key={index}
@@ -217,11 +217,11 @@ export default function Company() {
 
             <div className="flex flex-col md:flex-row gap-4 items-center relative">
               {[
-                { number: "01", title: "Ausgangslage", description: "Ein mittelständisches Unternehmen im B2C-Bereich kämpft mit stagnierenden Conversion-Raten trotz intensiver Marketingaktivitäten." },
-                { number: "02", title: "Herausforderung", description: "Kunden wandern im Checkout-Prozess ab und es besteht Unklarheit über die tatsächlichen Kaufmotive." },
-                { number: "03", title: "Analyse", description: "Eine neurowissenschaftliche Analyse der Entscheidungspunkte identifiziert implizite Barrieren und Trigger." },
-                { number: "04", title: "Umsetzung", description: "Die Optimierung der Touchpoints basiert auf neuronalen Prinzipien und die Kommunikation wird an emotionale Entscheidungswege angepasst." },
-                { number: "05", title: "Ergebnis", description: "Es zeigt sich eine messbare Verbesserung der Conversion-Rate, eine höhere Kundenbindung und ein klareres Verständnis der Zielgruppenpsychologie." }
+                { number: "01", title: "Ausgangslage", description: "Eine Schule in Hamburg möchte KI gezielt für Lehrkräfte und SchülerInnen etablieren, ohne den Lern- und Arbeitsalltag zu überlasten." },
+                { number: "02", title: "Herausforderung", description: "Unklarheit, welche Tools passen, wie sie geschult werden und wie Akzeptanz im Kollegium entsteht." },
+                { number: "03", title: "Analyse", description: "Wir ermitteln kognitive Belastungspunkte, passende Use-Cases und die bereichsspezifischen Bedürfnisse von Lehrkräften." },
+                { number: "04", title: "Umsetzung", description: "Pilot-Workshops, schrittweise Integration, begleitendes Training und Feedback-Loops mit dem Kollegium." },
+                { number: "05", title: "Ergebnis", description: "Lehrkräfte nutzen KI selbstbewusst, SchülerInnen lernen verantwortungsvoll damit umzugehen und die Schule erhält eine tragfähige KI-Strategie." }
               ].map((step, index) => (
                 <React.Fragment key={index}>
                   <div className="w-full md:w-[18%]">
@@ -264,6 +264,32 @@ export default function Company() {
         </div>
       </section>
 
+      <section className="py-section-mobile md:py-section bg-white border-t border-primary-accent/10">
+        <div className="container">
+          <SectionHeader label="REFERENZEN" title="Dort, wo wir Tech bereits neurofreundlich etabliert haben." />
+          
+          <div className="grid md:grid-cols-3 gap-8 mt-12">
+            <div className="border border-border bg-surface p-6 rounded-card hover:border-primary-accent hover:shadow-lg hover:shadow-primary-accent/10 transition-all duration-300 hover:-translate-y-1">
+              <p className="text-sm font-semibold uppercase tracking-wider text-primary-accent mb-2">Diagnostik</p>
+              <h3 className="text-lg font-semibold text-text-primary mb-3">FASD-Fachzentrum Hamburg / Institut für Kinderneurologie</h3>
+              <p className="text-sm text-text-secondary">Neurofreundliche Tech-Integration in Diagnoseverfahren: Wir haben digitale Abläufe so gestaltet, dass sie kognitive Ressourcen von Patient:innen und Fachkräften schonen.</p>
+            </div>
+
+            <div className="border border-border bg-surface p-6 rounded-card hover:border-primary-accent hover:shadow-lg hover:shadow-primary-accent/10 transition-all duration-300 hover:-translate-y-1">
+              <p className="text-sm font-semibold uppercase tracking-wider text-primary-accent mb-2">Software & App</p>
+              <h3 className="text-lg font-semibold text-text-primary mb-3">Deepvelop</h3>
+              <p className="text-sm text-text-secondary">Programmierung von neurofreundlicher Software und App: Entwicklung und Beratung zu Interfaces, die kognitive Belastung reduzieren und Nutzungsakzeptanz fördern.</p>
+            </div>
+
+            <div className="border border-border bg-surface p-6 rounded-card hover:border-primary-accent hover:shadow-lg hover:shadow-primary-accent/10 transition-all duration-300 hover:-translate-y-1">
+              <p className="text-sm font-semibold uppercase tracking-wider text-primary-accent mb-2">Sport</p>
+              <h3 className="text-lg font-semibold text-text-primary mb-3">SCV Hamburg</h3>
+              <p className="text-sm text-text-secondary">Saisonprogramm Neuroathletik mit vier Jugendfußballteams: Neuro-Eduktion, Nervensystem-Analysen und App-basierte Trainingsintegration über die Saison.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <section className="py-section-mobile md:py-section bg-surface">
         <div className="container">
           <SectionHeader label="EVIDENCE" title="Wissenschaftliche Fundierung" />
@@ -291,8 +317,8 @@ export default function Company() {
 
       <section className="bg-surface">
         <div className="container py-section-mobile md:py-section">
-          <SectionHeader label="CONTACT" title="Bereit für wissenschaftlich fundiertes Wachstum?" />
-          <div className="mt-12"><CTABlock primary={{ text: "Company-Gespräch buchen", href: "/kontakt" }} /></div>
+          <SectionHeader label="CONTACT" title="Bereit für neurofreundliche KI-Integration?" />
+          <div className="mt-12"><CTABlock primary={{ text: "Gespräch buchen", href: "/kontakt" }} /></div>
         </div>
       </section>
     </div>

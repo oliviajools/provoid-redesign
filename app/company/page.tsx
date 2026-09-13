@@ -264,41 +264,6 @@ export default function Company() {
         </div>
       </section>
 
-      <section className="py-section-mobile md:py-section bg-white border-t border-primary-accent/10">
-        <div className="container">
-          <SectionHeader label="REFERENZEN" title="Dort, wo wir Tech bereits neurofreundlich etabliert haben." />
-          
-          <div className="grid md:grid-cols-3 gap-8 mt-12">
-            <div className="border border-border bg-surface p-6 rounded-card hover:border-primary-accent hover:shadow-lg hover:shadow-primary-accent/10 transition-all duration-300 hover:-translate-y-1">
-              <div className="h-24 mb-6 flex items-center justify-center">
-                <Image src="/FASD_Logo-768x270.png" alt="FASD-Fachzentrum Hamburg" width={768} height={270} className="max-h-20 w-auto object-contain" />
-              </div>
-              <p className="text-sm font-semibold uppercase tracking-wider text-primary-accent mb-2">Diagnostik</p>
-              <h3 className="text-lg font-semibold text-text-primary mb-3">FASD-Fachzentrum Hamburg / Institut für Kinderneurologie</h3>
-              <p className="text-sm text-text-secondary">Neurofreundliche Tech-Integration in Diagnoseverfahren: Wir haben digitale Abläufe so gestaltet, dass sie kognitive Ressourcen von Patient:innen und Fachkräften schonen.</p>
-            </div>
-
-            <div className="border border-border bg-surface p-6 rounded-card hover:border-primary-accent hover:shadow-lg hover:shadow-primary-accent/10 transition-all duration-300 hover:-translate-y-1">
-              <div className="h-24 mb-6 flex items-center justify-center">
-                <Image src="/deepvelop-hamburg-logo-mit-text-380x510-2.png" alt="Deepvelop Hamburg" width={380} height={510} className="max-h-24 w-auto object-contain" />
-              </div>
-              <p className="text-sm font-semibold uppercase tracking-wider text-primary-accent mb-2">Software & App</p>
-              <h3 className="text-lg font-semibold text-text-primary mb-3">Deepvelop</h3>
-              <p className="text-sm text-text-secondary">Programmierung von neurofreundlicher Software und App: Entwicklung und Beratung zu Interfaces, die kognitive Belastung reduzieren und Nutzungsakzeptanz fördern.</p>
-            </div>
-
-            <div className="border border-border bg-surface p-6 rounded-card hover:border-primary-accent hover:shadow-lg hover:shadow-primary-accent/10 transition-all duration-300 hover:-translate-y-1">
-              <div className="h-24 mb-6 flex items-center justify-center">
-                <Image src="/Scvictoria-logo.svg.webp" alt="SC Victoria Hamburg" width={500} height={500} className="max-h-24 w-auto object-contain" />
-              </div>
-              <p className="text-sm font-semibold uppercase tracking-wider text-primary-accent mb-2">Sport</p>
-              <h3 className="text-lg font-semibold text-text-primary mb-3">SCV Hamburg</h3>
-              <p className="text-sm text-text-secondary">Saisonprogramm Neuroathletik mit vier Jugendfußballteams: Neuro-Eduktion, Nervensystem-Analysen und App-basierte Trainingsintegration über die Saison.</p>
-            </div>
-          </div>
-        </div>
-      </section>
-
       <section className="py-section-mobile md:py-section bg-surface">
         <div className="container">
           <SectionHeader label="EVIDENCE" title="Wissenschaftliche Fundierung" />

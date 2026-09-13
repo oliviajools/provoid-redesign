@@ -113,6 +113,13 @@ export default function About() {
               <p className="text-text-secondary mb-4">Aktiver Sportler und Trainer im Leistungssport mit umfassender Erfahrung in neurologisch orientierten Trainingsansätzen. Leitet die Sportabteilung von PROVOID.</p>
               <p className="text-sm text-text-muted italic">"Leistung beginnt im Nervensystem."</p>
             </div>
+
+            <div className="border border-border bg-white p-8 rounded-card hover:border-primary-accent hover:shadow-lg hover:shadow-primary-accent/10 transition-all duration-300 hover:-translate-y-1">
+              <h3 className="text-xl font-semibold text-text-primary mb-2">Vier Mitglieder</h3>
+              <p className="text-sm text-text-muted mb-4">Pädagogischer Beirat</p>
+              <p className="text-text-secondary mb-4">Vier Menschen mit Erfahrungen und Qualifikationen in Pädagogik und Didaktik, um PROVOID bei Konzeption und Inhalt von der KI-Integration im Bildungssektor zu beraten und unterstützen.</p>
+              <p className="text-sm text-text-muted italic">"Der Mensch steht im Mittelpunkt."</p>
+            </div>
           </div>
         </div>
       </section>

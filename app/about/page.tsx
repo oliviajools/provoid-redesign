@@ -52,7 +52,7 @@ export default function About() {
             <div className="border border-border bg-white p-8 rounded-card hover:border-primary-accent hover:shadow-lg hover:shadow-primary-accent/10 transition-all duration-300 hover:-translate-y-1">
               <h3 className="text-xl font-semibold text-text-primary mb-2">Olivia</h3>
               <p className="text-sm text-text-muted mb-4">Gründerin & CEO</p>
-              <p className="text-text-secondary mb-4">Gründete PROVOID 2025 nach dem Abitur als Jahrgangsbeste. Sie kombiniert wissenschaftliche Tiefe mit unternehmerischem Denken sowie ihrer Erfahrung aus Sport und Forschung.</p>
+              <p className="text-text-secondary mb-4">Olivia gründete PROVOID 2025 nach dem Abitur in Hamburg. Sie arbeitet praktisch an der Schnittstelle von Neurowissenschaft, Medizin und Digital Health – mit Erfahrung vom UKE, aus der ambulanten Neurologie und aktuell aus der computergestützten Neurowissenschaft. Dazu bringt sie mehrjährige Erfahrung in medizinischer Datenerhebung, Web- und App-Entwicklung sowie aus Forschungswettbewerben.</p>
               
               <button
                 onClick={() => setShowOliviaDetails(!showOliviaDetails)}
@@ -68,7 +68,7 @@ export default function About() {
                 <div className="space-y-4">
                   <div>
                     <p className="text-sm font-semibold uppercase tracking-wider text-text-muted mb-2">Biografie</p>
-                    <p className="text-sm text-text-secondary">Mit 15 Jahren begann Olivia als Juniorstudentin Physik an der Universität Hamburg zu studieren. Parallel forschte sie am Schülerforschungszentrum Hamburg, wo sie mit PROVOID den Landespreis bei Jugend forscht gewann. Erfahrung als Fußballtrainerin bei SC Victoria Hamburg.</p>
+                    <p className="text-sm text-text-secondary">Olivia hat Physik im Juniorstudium an der Universität Hamburg absolviert und am Schülerforschungszentrum Hamburg unter anderem das PROVOID-Forschungsprojekt entwickelt. Sie sammelte klinische Praxis am Universitätsklinikum Hamburg-Eppendorf (neurologisch-neurochirurgische Überwachungsstation), in der ambulanten Neurologie und der Inneren Medizin. Aktuell arbeitet sie am Institut für Computational Neuroscience (UKE) an einem vCR-Handschuh zur Tremor-Therapie bei Parkinson und an App-basierten Erhebungstools für Patientendaten. Daneben begleitet sie medizinische IT-Projekte, programmiert Websites und Apps und engagiert sich als Trainerin bei SC Victoria Hamburg.</p>
                   </div>
                   <div>
                     <p className="text-sm font-semibold uppercase tracking-wider text-text-muted mb-2">Ausbildung & Zertifikate</p>

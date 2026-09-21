@@ -190,11 +190,8 @@ export default function Home() {
       <section id="about" className="scroll-mt-16 bg-white py-section-mobile md:py-section">
         <div className="container">
           <div className="grid items-center gap-12 lg:grid-cols-[0.8fr_1.2fr] lg:gap-20">
-            <div className="flex aspect-[4/5] items-end overflow-hidden rounded-card bg-black p-8">
-              <div>
-                <p className="mb-2 text-sm font-semibold uppercase tracking-[0.16em] text-primary-accent">Foto folgt</p>
-                <p className="text-sm text-gray-400">Hier kann später Olivias Foto eingesetzt werden.</p>
-              </div>
+            <div className="relative aspect-[4/5] overflow-hidden rounded-card bg-black">
+              <Image src="/olivia-bahr.jpg" alt="Olivia Bahr bei der Präsentation eines Forschungsprojekts" fill sizes="(min-width: 1024px) 40vw, 100vw" className="object-cover object-center" />
             </div>
             <div>
               <p className="mb-4 text-sm font-semibold uppercase tracking-[0.2em] text-primary-accent">ÜBER PROVOID</p>

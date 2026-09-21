@@ -65,29 +65,30 @@ const roadmap = [
 export default function Home() {
   return (
     <div className="flex flex-col">
-      <section id="home" className="scroll-mt-16 overflow-hidden bg-surface py-16 md:py-24 lg:py-28">
-        <div className="container">
-          <div className="grid items-center gap-10 lg:grid-cols-[minmax(0,1fr)_26rem] lg:gap-16">
-            <div className="max-w-3xl">
+      <section id="home" className="relative scroll-mt-16 overflow-hidden bg-surface py-16 md:py-24 lg:py-28">
+        <div className="absolute left-1/2 top-1/2 h-[32rem] w-[32rem] -translate-y-1/2 rounded-full bg-primary-accent/[0.06] blur-3xl" />
+        <div className="container relative">
+          <div className="mx-auto grid max-w-6xl items-center gap-12 lg:grid-cols-2 lg:gap-20">
+            <div className="mx-auto max-w-xl text-center lg:mx-0 lg:text-left">
               <p className="mb-5 text-sm font-semibold uppercase tracking-[0.2em] text-primary-accent">KI in Bildung und Organisationen</p>
               <h1 className="mb-6 text-4xl font-semibold leading-[1.05] tracking-tight text-text-primary md:text-5xl lg:text-6xl">
                 KI einführen.<br />Menschen mitnehmen.
               </h1>
-              <p className="mb-8 max-w-2xl text-lg leading-relaxed text-text-secondary md:text-xl">
+              <p className="mb-8 text-lg leading-relaxed text-text-secondary md:text-xl">
                 Wir helfen Bildungseinrichtungen und Organisationen, KI sinnvoll in ihren Alltag zu integrieren – mit klaren Anwendungsfällen, praxisnahen Schulungen und einem Blick auf die Menschen, die damit arbeiten.
               </p>
-              <div className="flex flex-col gap-3 sm:flex-row">
+              <div className="flex flex-col justify-center gap-3 sm:flex-row lg:justify-start">
                 <Link href="/kontakt" className="inline-flex items-center justify-center gap-2 rounded-editorial bg-primary-accent px-6 py-3 font-medium text-white transition-colors hover:bg-primary-light">
                   Erstgespräch vereinbaren <ArrowRight className="h-4 w-4" />
                 </Link>
-                <Link href="#angebot" className="inline-flex items-center justify-center rounded-editorial border border-border px-6 py-3 font-medium text-text-primary transition-colors hover:border-primary-accent">
+                <Link href="#angebot" className="inline-flex items-center justify-center rounded-editorial border border-border bg-white/50 px-6 py-3 font-medium text-text-primary transition-colors hover:border-primary-accent">
                   Angebot ansehen
                 </Link>
               </div>
             </div>
-            <div className="relative mx-auto w-full max-w-sm lg:max-w-none">
-              <div className="absolute inset-8 rounded-full bg-primary-accent/10 blur-3xl" />
-              <Image src="/brain.png" alt="Illustration eines Gehirns" width={768} height={768} priority className="relative h-auto w-full drop-shadow-lg" />
+            <div className="relative mx-auto flex aspect-square w-full max-w-md items-center justify-center lg:max-w-lg">
+              <div className="absolute inset-[15%] rounded-full border border-primary-accent/10 bg-white/60 shadow-[0_30px_80px_rgba(61,184,222,0.12)]" />
+              <Image src="/brain.png" alt="Illustration eines Gehirns" width={768} height={768} priority className="relative h-auto w-full scale-125 drop-shadow-xl" />
             </div>
           </div>
         </div>

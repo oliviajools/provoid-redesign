@@ -114,11 +114,18 @@ export default function About() {
               <p className="text-sm text-text-muted italic">"Leistung beginnt im Nervensystem."</p>
             </div>
 
-            <div className="border border-border bg-white p-8 rounded-card hover:border-primary-accent hover:shadow-lg hover:shadow-primary-accent/10 transition-all duration-300 hover:-translate-y-1">
-              <h3 className="text-xl font-semibold text-text-primary mb-2">Vier Mitglieder</h3>
-              <p className="text-sm text-text-muted mb-4">Pädagogischer Beirat</p>
-              <p className="text-text-secondary mb-4">Vier Menschen mit Erfahrungen und Qualifikationen in Pädagogik und Didaktik, um PROVOID bei Konzeption und Inhalt von der KI-Integration im Bildungssektor zu beraten und unterstützen.</p>
-              <p className="text-sm text-text-muted italic">"Der Mensch steht im Mittelpunkt."</p>
+            <div className="md:col-span-2 lg:col-span-3 border border-primary-accent/40 border-t-4 border-t-primary-accent bg-white p-8 md:p-10 rounded-card hover:shadow-lg hover:shadow-primary-accent/10 transition-all duration-300">
+              <p className="text-sm font-semibold uppercase tracking-wider text-primary-accent mb-5">Pädagogisches Fundament</p>
+              <div className="grid md:grid-cols-[1fr_2fr] gap-6 md:gap-12 items-start">
+                <div>
+                  <h3 className="text-2xl font-semibold text-text-primary mb-2">Vier Mitglieder</h3>
+                  <p className="text-text-muted">Pädagogischer Beirat</p>
+                </div>
+                <div>
+                  <p className="text-lg text-text-secondary mb-5">Vier Menschen mit Erfahrung und Qualifikationen in Pädagogik und Didaktik beraten PROVOID bei der Konzeption und inhaltlichen Gestaltung der KI-Integration im Bildungssektor.</p>
+                  <p className="text-sm text-text-muted italic">"Der Mensch steht im Mittelpunkt."</p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
